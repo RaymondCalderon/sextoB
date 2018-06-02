@@ -1,0 +1,72 @@
+<% include header%>
+<style>
+    h3{
+        color: orange;
+    }
+    #row1,
+    #row2 {
+        border: 1px solid yellow;
+        text-align: center;
+        border-radius: 4px;
+        //display: inline-block;
+        background-color: black;
+    }
+    p.nom{
+        font-size: 30px;
+        color: white;
+    }
+    p.des{
+        font-size: 30px;
+        color: white;
+    }
+</style>
+<h2>Clases</h2>
+<form method="post" role="form">
+    <h3>Zombies atrapados en la escena del crimen</h3>
+    <div class="container">
+    <div class= "row">
+        <div class="col-4" id="row1">
+            <p class="nom"><strong> Zombie Abanderado</strong></p>
+            <img src="https://vignette.wikia.nocookie.net/plantsvszombies/images/0/0d/Flag_Zombie1.png/revision/latest?cb=20130725140654">
+            <p class="des">Al parecer le gustan las banderas y señala una enorme orda entrante.</p>
+            <p class="des">Vida: 10</p>
+        </div>
+        <div class="col-4" id="row1">
+            <p class="nom"><strong> Zombie Caracono</strong></p>
+            <img src="https://vignette.wikia.nocookie.net/plantsvszombies/images/c/c2/Conehead_Zombie1.png/revision/latest?cb=20120220185549">
+            <p class="des">Zombie con proteccion, utiliza un cono de tráfico para protegerse.</p>
+            <p class="des">Vida: 28
+            (18 para el Cono)</p>
+        </div>
+        <div class="col-4" id="row1">
+            <p class="nom"><strong> Zombie Saltador de Pértiga</strong></p>
+            <img src="https://vignette.wikia.nocookie.net/plantsvszombies/images/f/fe/Pole_Vaulting_Zombie1.png/revision/latest?cb=20130725140655">
+            <p class="des">Zombie saltador, salta sobre lo primero que encuentra con un poste.</p>
+            <p class="des">Vida: 17</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4" id="row2">
+            <p class="nom"><strong> Zombie Caracubo</strong></p>
+            <img src="https://vignette.wikia.nocookie.net/plantsvszombies/images/c/c7/Buckethead_Zombie1.png/revision/latest?cb=20130725140652">
+            <p class="des">Zombie con protección, Tiene un balde que es extremadamente resistente a los daños, pero atrayente por un Iman.</p>
+            <p class="des">Vida: 65
+            (55 para el Cubo)</p>
+        </div>
+        <div class="col-4" id="row2">
+            <p class="nom"><strong> Zombie Deportista</strong></p>
+            <img src="https://vignette.wikia.nocookie.net/plantsvszombies/images/8/85/Football_Zombie1.png/revision/latest?cb=20130525010058">
+            <p class="des">Zombie con protección, muy resistente, se mueve rápido. El casco puede ser quitado por Magnetoseta</p>
+            <p class="des">Vida: 80
+            (70 para el casco de football)</p>
+        </div>
+        <div class="col-4" id="row2">
+            <p class="nom"><strong> Zombie Bailarin</strong></p>
+            <img src="https://vignette.wikia.nocookie.net/plantsvszombies/images/4/47/New_Dancing_Zombie2.png/revision/latest?cb=20120313053216">
+            <p class="des">Danza mientras camina, convoca a bailarines de reserva. Al parecer hace tributo a Michael Jackson.</p>
+            <p class="des">Vida: 20</p>
+        </div>
+    </div>
+    </div>
+</form>
+<% include footer %>
